@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>East West University</title>
+    <style>
+      /* Body */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Header */
+      header {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      header nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+      }
+
+      header nav ul li {
+        margin: 0 10px;
+      }
+
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      header nav ul li a:hover {
+        color: #ffcc00;
+      }
+
+      /* Main */
+      main {
+        padding: 20px;
+      }
+
+      main h2 {
+        font-size: 30px;
+        margin-top: 0;
+      }
+
+      main p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+
+      .cta {
+        text-align: center;
+      }
+
+      .cta a {
+        display: inline-block;
+        background-color: #ffcc00;
+        color: #003366;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta a:hover {
+        background-color: #fff;
+        color: #003366;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+      footer p {
+        font-size: 14px;
+        text-align: center;
+      }
+
+      footer a {
+        color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        header h1 {
+          margin-bottom: 10px;
+          font-size: 24px;
+        }
+
+        header nav ul {
+          margin-top: 10px;
+        }
+
+        header nav ul li {
+          margin: 0 5px;
+        }
+
+        main h2 {
+          font-size: 24px;
+        }
+
+        main p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>East West University</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Admissions</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Welcome to East West University</h2>
+      <p>
+        East West University is a private university located in Dhaka,
+        Bangladesh. It was founded in 1996 by a group of academics and business
+        leaders with the aim of providing world-class education to students in
+        Bangladesh.
+      </p>
+      <p>
+        At East West University, we offer a range of undergraduate and graduate
+        programs across a variety of fields, including business, engineering,
+        and social sciences. Our faculty is made up of highly qualified
+        academics and industry professionals who are committed to providing our
+        students with a challenging and rewarding education.
+      </p>
+      <div class="cta">
+        <a href="#">Learn more</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 East West University. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
